@@ -1,5 +1,10 @@
 //your code here
 
+let table = document.getElementById("table1");
+let add = document.getElementById("add");
+
+console.log("Enter");
+
 function reset() {
     for (i = 1; i <= 9; i++) {
         const block = document.getElementById(`${i}`);
